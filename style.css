@@ -326,3 +326,15 @@ nav ul li a:hover{
         right: 20px;
     }
 }
+.profile-img {
+    width: 220px !important;
+    height: 220px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+    overflow: hidden !important;
+    display: block !important;
+    margin: 0 auto 30px !important;
+    border: 5px solid #38bdf8 !important;
+    box-shadow: 0 0 25px rgba(56,189,248,0.8) !important;
+}
