@@ -305,7 +305,6 @@ nav ul li a:hover{
 
     .hero img:hover,
     .profile-img:hover {
-        transform: scale(1.05);
         box-shadow: 0 0 40px rgba(56, 189, 248, 1);
 }
     .skills-container,
