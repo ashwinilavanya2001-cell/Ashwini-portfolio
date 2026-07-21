@@ -295,15 +295,19 @@ nav ul li a:hover{
     height: 220px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center top;
     border: 5px solid white;
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.7);
     display: block;
     margin: 0 auto 30px;
+    transition: all 0.4s ease;
 }
-        width: 180px;
-        height: 180px;
-    }
 
+    .hero img:hover,
+    .profile-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(56, 189, 248, 1);
+}
     .skills-container,
     .projects-container {
         flex-direction: column;
