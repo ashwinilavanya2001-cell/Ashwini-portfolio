@@ -264,74 +264,63 @@ nav ul li a:hover{
     cursor: pointer;
     color: white;
 }
-@media (max-width: 768px) {
 
-.menu-toggle{
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    color: white;
-}
+@media screen and (max-width:768px){
 
-nav {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
-    
-nav ul {
-    display:none;
-    width:100%;
-    flex-direction:column;
-    text-align:center;
-    background:#16213e;
-    margin-top:15px;
-    padding:10px 0;
-    gap:15px;
-}
-
-nav ul.active {
-    display: flex;
-}
-nav ul li{
-    margin:10px 0;
-}
-    .hero {
-        padding: 60px 20px;
-        text-align: center;
+    .menu-toggle{
+        display:block !important;
     }
 
-    .hero h1 {
-        font-size:1.8rem;
-        line-height:1.3;
+    nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-wrap:wrap;
+        padding:15px;
     }
 
-    .hero h2 {
-        font-size: 1.3rem;
-        word-wrap: break-word;
+    nav ul{
+        display:none;
+        width:100%;
+        flex-direction:column;
+        background:#16213e;
+        margin-top:15px;
+        padding:15px 0;
+        gap:15px;
     }
 
-    .hero img:hover,
-    .profile-img:hover {
-        box-shadow: 0 0 40px rgba(56, 189, 248, 1);
-}
-    .skills-container,
-    .projects-container {
-        flex-direction: column;
-        align-items: center;
+    nav ul.active{
+        display:flex !important;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    .hero{
+        padding:60px 20px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero h2{
+        font-size:1.3rem;
+    }
+
+    .skill-container,
+    .project-container{
+        flex-direction:column;
+        align-items:center;
     }
 
     .skill-card,
-    .project-card {
-        width: 90%;
-    }
-
-    #topBtn {
-        bottom: 20px;
-        right: 20px;
+    .project-card{
+        width:90%;
     }
 }
+
 .profile-img {
     width: 220px !important;
     height: 220px !important;
