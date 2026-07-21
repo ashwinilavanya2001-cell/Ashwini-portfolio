@@ -260,7 +260,7 @@ nav ul li a:hover{
 @media (max-width: 768px) {
 
 .menu-toggle{
-    display: block;
+    display: none;
     font-size: 28px;
     cursor: pointer;
     color: white;
