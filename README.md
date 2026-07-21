@@ -32,6 +32,22 @@ I am an M.Sc. Data Science graduate with professional experience in Technical Su
 - Machine Learning
 - Predictive Analytics
 
+### 4.Sales Analysis Dashboard using Power BI
+- Microsoft Power BI
+- Microsoft Excel
+- Power Query
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- Data Visualization
+- Dashboard Development
+- KPI Dashboard
+- DAX (Basic Measures)
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- Interactive Filters
+
 ## Experience
 **Technical Support Executive**
 TCL | Aug 2022 – May 2024
