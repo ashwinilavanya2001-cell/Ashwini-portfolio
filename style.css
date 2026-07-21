@@ -22,10 +22,10 @@ h1{
 h2{
     color:#38bdf8;
     font-size:35px;
+}
     #typing{
     color:#38bdf8;
     font-weight:bold;
-}
 }
 
 p{
@@ -274,22 +274,28 @@ nav ul li a:hover{
 }
 
 nav {
-    flex-direction: row;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
 }
     
 nav ul {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    margin-top: 15px;
+    display:none;
+    width:100%;
+    flex-direction:column;
+    text-align:center;
+    background:#16213e;
+    margin-top:15px;
+    padding:10px 0;
+    gap:15px;
 }
 
 nav ul.active {
     display: flex;
+}
+nav ul li{
+    margin:10px 0;
 }
     .hero {
         padding: 60px 20px;
@@ -305,20 +311,6 @@ nav ul.active {
         font-size: 1.3rem;
         word-wrap: break-word;
     }
-
-    .hero img,
-    .profile-img {
-        width: 220px;
-        height: 220px;
-        border-radius: 50%;
-        object-fit: cover;
-        object-position: center top%;
-        border: 5px solid #38bdf8;
-        box-shadow: 0 0 25px rgba(56, 189, 248, 0.8);
-        display: block;
-        margin: 0 auto 30px;
-        transition: all 0.4s ease;
-}
 
     .hero img:hover,
     .profile-img:hover {
