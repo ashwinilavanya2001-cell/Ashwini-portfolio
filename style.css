@@ -135,6 +135,83 @@ nav ul li a:hover{
     background:#38bdf8;
     color:white;
 }
+
+.education{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.education h2{
+    font-size:40px;
+    color:#38bdf8;
+    margin-bottom:40px;
+}
+
+.education-card{
+    background:white;
+    color:#222;
+    max-width:850px;
+    margin:25px auto;
+    padding:25px;
+    border-radius:15px;
+    text-align:left;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    transition:.3s;
+}
+
+.education-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.education-card h3{
+    color:#1e3a8a;
+    margin-bottom:8px;
+}
+
+.education-card h4{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.experience{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.experience h2{
+    font-size:40px;
+    color:#38bdf8;
+    margin-bottom:40px;
+}
+
+.experience-card{
+    background:white;
+    color:#222;
+    max-width:850px;
+    margin:auto;
+    padding:25px;
+    border-radius:15px;
+    text-align:left;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.experience-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.experience-card h3{
+    color:#1e3a8a;
+    margin-bottom:8px;
+}
+
+.experience-card h4{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
 .projects{
     padding:80px 60px;
     text-align:center;
@@ -307,6 +384,11 @@ nav ul li a:hover{
 
     .hero h2{
         font-size:1.3rem;
+    }
+    
+    .education-card,
+    .experience-card{
+        width:100%;
     }
 
     .skill-container,
