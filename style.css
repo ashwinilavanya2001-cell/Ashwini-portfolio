@@ -295,7 +295,7 @@ nav ul li a:hover{
     height: 220px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center 10%;
     border: 5px solid white;
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.7);
     display: block;
