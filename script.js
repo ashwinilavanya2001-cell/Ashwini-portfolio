@@ -76,3 +76,10 @@ function scrollToTop() {
 }
 
 topButton.onclick = scrollToTop;
+// Mobile Menu
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector("nav ul");
+
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
