@@ -289,7 +289,15 @@ nav ul li a:hover{
         word-wrap: break-word;
     }
 
-    .hero img {
+    .hero img,
+    .profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
         width: 180px;
         height: 180px;
     }
