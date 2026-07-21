@@ -259,24 +259,24 @@ nav ul li a:hover{
 }
 @media (max-width: 768px) {
 
-    .menu-toggle{
-       display:block;
-    }
+.menu-toggle{
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
 
-    nav {
-        flex-direction: column;
-        padding: 15px;
-    }
+nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
 
-    nav ul {
-       display:flex;
-       flex-wrap:wrap;
-        justify-content:center;
-        gap:10px;
-        margin-top: 15px;
-        padding: 0;
-    }
-
+nav ul.active {
+    display: flex;
+}
     .hero {
         padding: 60px 20px;
         text-align: center;
