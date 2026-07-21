@@ -257,6 +257,13 @@ nav ul li a:hover{
 #topBtn:hover{
     background:#0ea5e9;
 }
+
+.menu-toggle{
+    display:none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
 @media (max-width: 768px) {
 
 .menu-toggle{
